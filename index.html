@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slide</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <h1>Slideshow</h1>
+
+    <div class="img-container container">
+        <button class="switch-btn" value="next">&#10095;</button>
+        <button class="switch-btn" value="prev">&#10094;</button>
+    </div>
+
+    <template id="template">
+        <figure class="hidden">
+            <span class="item-id"></span>
+            <figcaption class="item-title"></figcaption>
+            <img class="item-img" src="" alt="" />
+        </figure>
+    </template>
+
+    <script defer src="app.js"></script>
+</body>
+
+</html>
